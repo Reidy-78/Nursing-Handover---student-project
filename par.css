@@ -1,0 +1,131 @@
+
+/*stylesheet for PAR*/
+
+/* style all pages */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    background-color: #eef5f5;
+    margin-left: 10px;
+}
+body {
+    font-size: 1.5rem;
+    margin: 50px;
+    color: lig;
+}
+main {
+    text-align: center;
+    font-size: 1.8rem;
+}
+img {
+    float: left;
+    padding-right: 50px;
+}
+/* headings */
+h1 {
+    padding-top: 100px;
+    color:	#008b8b;
+    text-align: left;
+    font-size: 3rem;
+}    
+h2 {
+    color: #008b8b;
+    text-align: left;
+    font-size: 2rem;
+} 
+h3 {
+    color: #008b8b;
+    text-align: left;
+    font-size: 1.5rem;
+}
+fieldset {
+    border-color: #008b8b;
+    border-radius: 1rem;
+    text-align: left;
+}
+/* button settings */
+.button1 {
+    background-color: #008b8b;
+    font-size: large;
+    width: 200px;
+    height: 40px;
+}
+.button2 {
+    background-color: #b32952;
+    font-size: large;
+    width: 200px;
+    height: 40px;
+}
+.button3 {
+    background-color: #0d0b8884;
+    font-size: large;
+    width: 200px;
+    height: 40px;
+}
+.button4 {
+    background-color: #0d0b8884;
+    width: 200px;
+    height: 20px;
+}
+/* navigation settings */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    width: auto;  
+}
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    border-radius: 1px;
+    border-color: #000;
+    background-color: #008b8b;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #b32952;
+    color: white;
+}
+ul {
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;  
+    width: auto;  
+}   
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    border-radius: 1px;
+    border-color: #000;
+    background-color: #008b8b;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    list-style-type: none;
+}
+li a:hover {
+    background-color: #b32952;
+    color: white;
+}
+/*date picker settings*/
+.calendar {
+    width: 150px;
+    height: 30px;
+    font-size: 1rem;
+}
+/*handover table settings*/
+.sbard {
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: center;
+}
+.table {
+    text-align: center;
+    font-size: 2rem;
+}
